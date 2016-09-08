@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+#div2 table{
+	align:"center";
+	width:400px;
+	border-spacing:1px;
+	border-collapse:1px;
+}
+
+#div2 caption{
+	color:#000000;
+	font-size:30pt;
+	font-weight:bold;
+	text-shadow:4px 4px 3px grey;
+}
+
+#div2 #endanswer,#showbutton{
+	width: 140px;
+	line-height: 38px;
+	text-align: center;
+	font-weight: bold;
+	font-size:15px;
+	color: #000000;
+	border-radius: 5px;
+	margin:0 20px 20px 0;
+	position: relative;
+	overflow: hidden;	
+}
+
+#div2 .button{
+	width: 140px;
+	line-height: 38px;
+	text-align: center;
+	font-size:15px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px 1px #333;
+	border-radius: 5px;
+	margin:0 20px 20px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+#div2 .button.red{
+	border:1px solid #b42323;
+	box-shadow: 0 1px 2px #e99494 inset,0 -1px 0 #954b4b inset,0 -2px 3px #e99494 inset;
+	background: -webkit-linear-gradient(top,#d53939,#b92929);
+	background: -moz-linear-gradient(top,#d53939,#b92929);
+	background: linear-gradient(top,#d53939,#b92929);
+}
+
+#div2 .button.blue{
+border:1px solid #1e7db9;
+box-shadow: 0 1px 2px #8fcaee inset,0 -1px 0 #497897 inset,0 -2px 3px #8fcaee inset;
+background: -webkit-linear-gradient(top,#42a4e0,#2e88c0);
+background: -moz-linear-gradient(top,#42a4e0,#2e88c0);
+background: linear-gradient(top,#42a4e0,#2e88c0);
+}
+
+#div2 tr{
+	border:0.5px solid #c0c0c0;
+	background-color:#ffb9ff;
+}
+
+#div2 td{
+	width:600px;
+	height:50px;
+}
+
+#div2 #div5 tr{
+	background-color:#ffffff;
+}
+
+#div2 tr :hover{
+	border:0.5px solid #c0c0c0;
+	background-color:#ff9dff;
+}
+
+#div2 #div5 tr :hover{
+	border:0.5px solid #c0c0c0;
+	background-color:#ffffff;
+}
+<!--选中时高亮显示-->
+#div2 tr ::selection{
+	border:0.5px solid #c0c0c0;
+	background-color:#ffff80;
+}
+
+#div2 tr ::-moz-selection{
+	border:0.5px solid #c0c0c0;
+	background-color:#ffff80;
+}
+
+#div2 .question{
+	color:#000000;
+	font-size:18pt;
+	font-weight:bold;
+}
+#div2 .choose{
+	color:#000000;
+	font-size:15pt;
+	font-weight:bold;
+}
+
+#div2 .endtime{
+	color:#8080ff;
+	font-size:20pt;
+	font-weight:bold;
+}
+
+#div2 #chart1,#chart2{
+	
+}

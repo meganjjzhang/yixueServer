@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+.tdStyle1{
+	width: 100px;
+	min-height: 50px;
+	padding:20px;
+	font-size: 25px;
+}
+.tdStyle2{
+	min-width: 100px;
+	max-width: 600px;
+	min-height: 50px;
+	font-size: 25px;
+}
